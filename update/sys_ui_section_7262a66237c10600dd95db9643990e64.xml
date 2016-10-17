@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Contact Details" section_id="7262a66237c10600dd95db9643990e64" sys_domain="global" table="x_spog_new_fcr_application" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller_name</element>
+            <position>0</position>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 16:12:06</sys_created_on>
+            <sys_id>7ed5a89e3784d2004ed29c9953990e6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">7262a66237c10600dd95db9643990e64</sys_ui_section>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 16:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>store_name</element>
+            <position>1</position>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 16:12:06</sys_created_on>
+            <sys_id>bed5a89e3784d2004ed29c9953990e6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">7262a66237c10600dd95db9643990e64</sys_ui_section>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 16:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 16:12:06</sys_created_on>
+            <sys_id>fed5a89e3784d2004ed29c9953990e6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">7262a66237c10600dd95db9643990e64</sys_ui_section>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 16:12:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>store_email_address</element>
+            <position>3</position>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 16:12:06</sys_created_on>
+            <sys_id>32d5a89e3784d2004ed29c9953990e6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">7262a66237c10600dd95db9643990e64</sys_ui_section>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 16:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_number</element>
+            <position>4</position>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 16:12:06</sys_created_on>
+            <sys_id>72d5a89e3784d2004ed29c9953990e6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">7262a66237c10600dd95db9643990e64</sys_ui_section>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 16:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_method_of_contact</element>
+            <position>5</position>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 16:12:06</sys_created_on>
+            <sys_id>b2d5a89e3784d2004ed29c9953990e6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">7262a66237c10600dd95db9643990e64</sys_ui_section>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 16:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contact Details</caption>
+            <header>false</header>
+            <name>x_spog_new_fcr_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-07 16:46:27</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7262a66237c10600dd95db9643990e64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Contact Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+            <sys_update_name>sys_ui_section_7262a66237c10600dd95db9643990e64</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-07 16:46:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

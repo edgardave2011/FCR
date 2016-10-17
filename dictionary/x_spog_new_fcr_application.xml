@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true" audit="true" extends="task" label="FCR Application" max_length="40" name="x_spog_new_fcr_application" sizeclass="25957" text_index="true" type="collection">
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;email,ref_ac_order_by=first_name" label="Caller" max_length="32" name="caller" reference="sys_user" reference_qual="javascript:new global.SpecsaversUserUtils().getUsersByUserType(current.caller_type);" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Caller Name" max_length="100" name="caller_name" type="string"/>
+        <element choice="1" label="Customer Type" mandatory="true" max_length="40" name="caller_type" type="string">
+            <choice>
+                <element label="Store" sequence="0" value="store"/>
+                <element label="Suppliers" sequence="1" value="suppliers"/>
+                <element label="Internal" sequence="2" value="corporate"/>
+            </choice>
+        </element>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element label="Accounts Payable" sequence="0" value="ap"/>
+                <element label="Financial Reporting" sequence="1" value="financial_reporting"/>
+                <element label="Financing &amp; Distributions" sequence="2" value="financing_distributions"/>
+                <element label="Group Treasury" sequence="3" value="group_tresury"/>
+                <element label="Pensions" sequence="4" value="pensions"/>
+                <element label="Stores Reporting" sequence="5" value="reporting"/>
+                <element label="Sales Accounting" sequence="6" value="sales_accounting"/>
+                <element label="Tax" sequence="7" value="tax"/>
+            </choice>
+        </element>
+        <element default="0" label="Closure Countdown Strike" max_length="40" name="closure_countdown_strike" read_only="true" type="integer"/>
+        <element label="Closure Countdown Time" max_length="40" name="closure_countdown_time" read_only="true" type="glide_date_time"/>
+        <element label="Contact Number" max_length="40" name="contact_number" type="ph_number"/>
+        <element choice="3" default="1" label="State" max_length="40" name="fcr_state" type="string">
+            <choice>
+                <element label="New" sequence="0" value="1"/>
+                <element label="Assigned" sequence="1" value="2"/>
+                <element label="Awaiting Customer" sequence="2" value="3"/>
+                <element label="Awaiting Customer Pending" sequence="3" value="-6"/>
+                <element label="Pending" sequence="4" value="-5"/>
+                <element label="Resolved" sequence="5" value="4"/>
+                <element label="Closed" sequence="6" value="5"/>
+            </choice>
+        </element>
+        <element label="FCR Teams" max_length="32" name="fcr_teams" reference="sys_user_group" reference_qual="parent=3972a722377c820050579c9953990efd" reference_qual_condition="parent=3972a722377c820050579c9953990efd" type="reference"/>
+        <element label="FCR Team Members" max_length="32" name="fcr_team_members" reference="sys_user" reference_qual="roles=x_spog_new_fcr.agent^EQ" reference_qual_condition="roles=x_spog_new_fcr.agent^EQ" type="reference"/>
+        <element label="Has Child" max_length="40" name="has_child" read_only="true" type="boolean"/>
+        <element choice="1" label="Invoice Type" max_length="40" name="invoice_type" type="string">
+            <choice>
+                <element label="Payment Enquiry" sequence="0" value="payment_enquiry"/>
+                <element label="Adjustment Required" sequence="1" value="adjustment_required"/>
+                <element label="Invoice Entry" sequence="2" value="invoice entry"/>
+                <element label="SEP Ltd Company" sequence="3" value="sep_ltd_company"/>
+                <element label="Invoice in DB Admin" sequence="4" value="invoice_db_admin"/>
+            </choice>
+        </element>
+        <element label="Mute Notifications" max_length="40" name="mute_notifications" type="boolean"/>
+        <element label="Quick Description" max_length="32" name="quick_description" reference="x_spog_new_fcr_quick_description" type="reference"/>
+        <element label="Quick Description Used" max_length="40" name="quick_description_used" type="boolean"/>
+        <element label="Reminder" max_length="40" name="reminder" type="glide_date_time"/>
+        <element label="Resolved" max_length="40" name="resolved_at" read_only="true" type="glide_date_time"/>
+        <element label="Resolved By" max_length="32" name="resolved_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="RFT" max_length="40" name="rft" type="boolean"/>
+        <element label="RFT Comments" max_length="4000" name="rft_comments" type="string"/>
+        <element choice="1" label="RFT Reason" max_length="40" name="rft_reason" type="string">
+            <choice>
+                <element label="Work Notes Unclear" sequence="0" value="internal_notes_unclear"/>
+                <element label="Invoice Non-Compliant" sequence="1" value="invoice_non_compliant"/>
+                <element label="Invoice on System" sequence="2" value="invoice_on_system"/>
+                <element label="More Info Required" sequence="3" value="more_info_required"/>
+                <element label="Multiple Reasons" sequence="4" value="multiple_reasons"/>
+                <element label="Reopen Incorrect Action by FCR" sequence="5" value="reopen_incorrect_action_by_fcr"/>
+                <element label="Reopen Incorrect Action by Finance Team" sequence="6" value="reopen_incorrect_action_by_tier_3_tiem"/>
+            </choice>
+        </element>
+        <element choice="1" label="Root Cause" max_length="40" name="root_cause" type="string">
+            <choice>
+                <element label="Internal" sequence="0" value="internal"/>
+                <element label="External" sequence="1" value="external"/>
+                <element label="Closed By System" sequence="2" value="closed_by_system"/>
+                <element label="Resolved By System" sequence="3" value="resolved_by_system"/>
+            </choice>
+        </element>
+        <element active="false" label="Skip Email" max_length="40" name="skip_email" type="boolean"/>
+        <element label="Contact Email" max_length="255" name="store_email_address" type="email"/>
+        <element label="Company Name" max_length="100" name="store_name" type="string"/>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Sub-Category" mandatory="true" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="reporting" label="Annual Statuatory Account Query" value="annual_statuatory_account_query"/>
+                <element dependent_value="group_tresury" label="Bank Transactions" value="bank_transactions"/>
+                <element dependent_value="group_tresury" label="Business Cards" value="business_cards"/>
+                <element dependent_value="group_tresury" label="CE Sales Ledgers" value="ce__sales_ledgers"/>
+                <element dependent_value="ap" label="Copy Remittance" value="copy_remittance"/>
+                <element dependent_value="ap" label="Customer Refund/Charitable Donations" value="customer_refund_charitable_donations"/>
+                <element dependent_value="ap" label="E-Invoicing" value="e_invoicing"/>
+                <element dependent_value="ap" label="Expenses" value="expenses"/>
+                <element dependent_value="ap" label="Group" value="group"/>
+                <element dependent_value="ap" label="Invoice" value="invoice"/>
+                <element dependent_value="financial_reporting" label="Irish 4883/4884/4885/4886" value="irish"/>
+                <element dependent_value="financial_reporting" label="Lensmail 385" value="lensmail"/>
+                <element dependent_value="reporting" label="Monthly Figures" value="monthly_figures"/>
+                <element dependent_value="reporting" label="Monthly Management Account Query" value="monthly_management_account_query"/>
+                <element dependent_value="reporting" label="National Statistics" value="national_statistics"/>
+                <element dependent_value="group_tresury" label="NHS" value="nhs"/>
+                <element dependent_value="group_tresury" label="Pay In Books" value="pay_in_books"/>
+                <element dependent_value="group_tresury" label="PDQ Machine" value="pdq_machine"/>
+                <element dependent_value="pensions" label="Pension Payment Enquiry" value="pension_payment_enquiry"/>
+                <element dependent_value="group_tresury" label="Portcullis" value="portcullis"/>
+                <element dependent_value="ap" label="S/O &amp; DD" value="so_dd"/>
+                <element dependent_value="ap" label="SEP Portal" value="sep_portal"/>
+                <element dependent_value="financial_reporting" label="SHL 4888/SHGL 4887" value="shl"/>
+                <element dependent_value="financial_reporting" label="SIBV 27/SIBV HC 4480" value="sibv"/>
+                <element dependent_value="financial_reporting" label="SOG 19" value="sog_19"/>
+                <element dependent_value="financial_reporting" label="SOS 18" value="sos_18"/>
+                <element dependent_value="financial_reporting" label="Specsavers Healthcall 1989" value="specsavers_healthcall"/>
+                <element dependent_value="financial_reporting" label="SRS 441" value="srs"/>
+                <element dependent_value="reporting" label="Stocktake" value="stocktake"/>
+                <element dependent_value="ap" label="Supplier Maintenance" value="supplier_maintenance"/>
+                <element dependent_value="ap" label="Supply Chain" value="supply_chain"/>
+                <element dependent_value="sales_accounting" label="AQP/Contracted Services" sequence="1" value="aqp_contracted_services"/>
+                <element dependent_value="financing_distributions" label="Company Cars" sequence="1" value="company_cars"/>
+                <element dependent_value="tax" label="General Enquiry" sequence="1" value="general_enquiry"/>
+                <element dependent_value="financing_distributions" label="Distributions" sequence="2" value="distributions"/>
+                <element dependent_value="sales_accounting" label="DVLA" sequence="2" value="dvla"/>
+                <element dependent_value="tax" label="Revenue Payments" sequence="2" value="revenue_payments"/>
+                <element dependent_value="sales_accounting" label="Healthcall" sequence="3" value="healthcall"/>
+                <element dependent_value="financing_distributions" label="Leasing" sequence="3" value="leasing"/>
+                <element dependent_value="tax" label="VAT" sequence="3" value="vat"/>
+                <element dependent_value="sales_accounting" label="Hearcare" sequence="4" value="hearcare"/>
+                <element dependent_value="financing_distributions" label="Lending" sequence="4" value="lending"/>
+                <element dependent_value="tax" label="Y/E Planning" sequence="4" value="y_e_planning"/>
+                <element dependent_value="sales_accounting" label="Optical" sequence="5" value="optical"/>
+                <element dependent_value="financing_distributions" label="Rejected" sequence="5" value="rejected"/>
+                <element dependent_value="financing_distributions" label="Severance" sequence="6" value="severance"/>
+                <element dependent_value="sales_accounting" label="TLIN's" sequence="6" value="tlins"/>
+            </choice>
+        </element>
+        <element choice="1" label="Preferred method of Contact" max_length="40" name="u_method_of_contact" type="string">
+            <choice>
+                <element label="Phone" sequence="0" value="Phone"/>
+                <element label="Text" sequence="1" value="Text"/>
+                <element label="Email" sequence="2" value="Email"/>
+            </choice>
+        </element>
+    </element>
+</database>

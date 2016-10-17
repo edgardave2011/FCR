@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<div><span style="font-family: verdana, geneva;">Dear Customer,</span></div>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<div><span style="font-family: verdana, geneva;">Your request ID is ${number}</span></div>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<div><span style="font-family: verdana, geneva;">We refer to your recent query, details are:<br /></span></div>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<table style="border: 1px solid black; text-align: left; width: 100%;" cellspacing="0" cellpadding="5"><tbody><tr><td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Short Description</span></td><td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${short_description}</span></td></tr><tr><td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Category</span></td><td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${category}</span></td></tr><tr><td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Sub Category</span></td><td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${subcategory}</span></td></tr><tr><td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Assigned To</span></td><td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${assigned_to}</span></td></tr></tbody></table>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<div><span style="font-family: verdana, geneva;">In order for us to deal with your query, the following information is required:</span></div>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<table style="border: 1px solid black; text-align: left; width: 100%;" cellspacing="0" cellpadding="5"><tbody><tr><td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Comments</span></td><td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;"></span></td></tr></tbody></table>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<div><span style="font-family: verdana, geneva;">You can reply directly to this email.</span></div>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<div><span style="font-family: verdana, geneva;">If the information is not received within 48 hours of this email it will be assumed that the query is no longer relevant and it will be automatically closed.</span></div>
+<div>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<div><span style="font-family: verdana, geneva;">If you have any further enquires relating to this request reply directly to this email, or contact us on the details below quoting request ID ${number}</span></div>
+<div><span style="font-family: verdana, geneva;"> </span></div>
+<div><span style="font-family: verdana, geneva;">Kind regards,</span></div>
+<div><span style="font-family: verdana, geneva;">Finance Customer Response</span></div>
+<div><span style="font-family: verdana, geneva;">Tel &#43;44 (0)1481 233 773</span></div>
+<div><span style="font-family: verdana, geneva;">Email: gg.fcr&#64;specsavers.com</span></div>
+<div><span style="font-family: verdana, geneva;">Fax: 0845 835 4804</span></div>
+</div>]]></body>
+        <group display_value="FCR" name="FCR">3972a722377c820050579c9953990efd</group>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-09-04 13:08:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e1a5e1e137924200ef5b70f543990e14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FCR Awaiting Customer</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_email_canned_message_e1a5e1e137924200ef5b70f543990e14</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-04 13:08:36</sys_updated_on>
+        <title>FCR Awaiting Customer</title>
+        <user/>
+    </sys_email_canned_message>
+</record_update>

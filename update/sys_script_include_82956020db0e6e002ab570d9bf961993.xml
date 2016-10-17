@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_spog_new_fcr.GetGroupFilter</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GetGroupFilter</name>
+        <script><![CDATA[//
+// this will do a lookup on the group type display values and return
+// a query condition that will query on the group type sys_id values
+// on entry
+//    reference = the table that is being referenced
+//    source = the table that contains the reference
+//
+function GetGroupFilter(types) {
+   //
+   // By default only use for service_catalog requests
+   //
+   //if (source != 'sc_request' && source != 'sc_req_item')
+   //    return "type=null";
+
+   //
+   // turn a non specification into a null request
+   //
+   if (types == null)
+      return "type=null";
+
+   //gs.log("GetGroupFilter: Translating '"+types+"' into sys_id values");
+   var gt = new GlideRecord("sys_user_group_type");   
+   var filters = types.split(",");
+   var qc = null;
+   for (var i = 0; i < filters.length; i++) {
+      if (qc == null)
+         qc = gt.addQuery("name", filters[i]);
+      else
+         qc.addOrCondition("name", filters[i]);
+   }
+   var gtr = new GlideRecord("sys_user_group");
+   gt.query();
+   qc = null;
+   while (gt.next()) {
+      if (qc == null)
+         qc = gtr.addQuery("type", gt.sys_id);
+      else
+         qc.addOrCondition("type", gt.sys_id);
+      
+   }
+   return qc;
+}
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-09-20 12:00:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>82956020db0e6e002ab570d9bf961993</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>GetGroupFilter</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_include_82956020db0e6e002ab570d9bf961993</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-09-27 15:27:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

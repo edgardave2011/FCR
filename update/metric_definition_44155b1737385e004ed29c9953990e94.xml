@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>When a ticket goes into state resolved or closed, calculate the duration from open</description>
+        <field>fcr_state</field>
+        <name>FCR-Create to Resolve Duration</name>
+        <number>MTRC0010010</number>
+        <order>100</order>
+        <script><![CDATA[// variables available
+// current: GlideRecord -  target incident
+// definition: GlideRecord -  (this row)
+var s = current.fcr_state;
+if (s >= 4)
+  createMetric();
+
+function createMetric() {
+  var mi = new MetricInstance(definition, current);
+  if (mi.metricExists()) 
+    return; 
+
+  var gr = mi.getNewRecord();
+  gr.start = current.sys_created_on;
+  gr.end = current.sys_updated_on;
+  gr.duration = gs.dateDiff(gr.start.getDisplayValue(), gr.end.getDisplayValue());
+  gr.calculation_complete = true;
+  gr.insert();
+}
+]]></script>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>admin.mohammed</sys_created_by>
+        <sys_created_on>2016-01-12 14:21:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>44155b1737385e004ed29c9953990e94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FCR-Create to Resolve Duration</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>metric_definition_44155b1737385e004ed29c9953990e94</sys_update_name>
+        <sys_updated_by>admin.mohammed</sys_updated_by>
+        <sys_updated_on>2016-01-12 14:21:05</sys_updated_on>
+        <table>x_spog_new_fcr_application</table>
+        <timeline>false</timeline>
+        <type>calculation</type>
+    </metric_definition>
+</record_update>

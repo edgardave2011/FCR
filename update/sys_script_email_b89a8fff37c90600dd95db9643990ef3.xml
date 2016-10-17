@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>fge_fcr_get_name_to</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function getNameTo() {
+	var name = current.caller_name || "Customer";
+	template.print('<div style="font-family: verdana, geneva;">Dear ' + name + ',</div>');
+}());]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-11 16:54:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b89a8fff37c90600dd95db9643990ef3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>fge_fcr_get_name_to</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_email_b89a8fff37c90600dd95db9643990ef3</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-11 23:58:07</sys_updated_on>
+    </sys_script_email>
+</record_update>

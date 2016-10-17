@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Cost Centers USers" max_length="40" name="x_spog_new_fcr_cost_centers_users" text_index="true" type="collection">
+        <element attributes="import_attribute_name=Cost center" label="Cost center" max_length="40" name="u_cost_center" type="string"/>
+        <element attributes="import_attribute_name=Full Name" label="Full Name" max_length="40" name="u_full_name" type="string"/>
+        <element attributes="import_attribute_name=User ID" label="User ID" max_length="40" name="u_user_id" type="string"/>
+        <element attributes="import_attribute_name=User Type" label="User Type" max_length="40" name="u_user_type" type="string"/>
+    </element>
+</database>

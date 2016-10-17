@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_method_of_contact" label="Preferred method of Contact" language="en" table="x_spog_new_fcr_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_method_of_contact</element>
+            <help/>
+            <hint/>
+            <label>Preferred method of Contact</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <plural>Preferred method of Contacts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 14:56:31</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>a384dc9a3784d2004ed29c9953990e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Preferred method of Contact</sys_name>
+            <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+            <sys_update_name>sys_documentation_x_spog_new_fcr_application_u_method_of_contact_en</sys_update_name>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 14:56:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

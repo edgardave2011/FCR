@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_spog_new_fcr.CloneFCRProcess</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CloneFCRProcess</name>
+        <script><![CDATA[var CloneFCRProcess = Class.create();
+
+CloneFCRProcess.prototype = {
+	
+	initialize: function () {
+		
+		this.newFCR = current;
+		this.fcrID = current.sys_id.toString();
+		
+		this.FCR_TABLE = "x_spog_new_fcr_application";
+	},
+	
+	startClone: function () {
+		
+		//var lastEntry = "";
+		
+		this.newFCR.number = global.getNextObjNumberPadded();
+		this.newFCR.fcr_state = "1";
+		this.newFCR.state = "1";
+		this.newFCR.parent = this.fcrID;
+		this.newFCR.has_child = "false";
+		this.newFCR.resolved_by = "";
+		this.newFCR.resolved_at = "";
+		this.newFCR.work_notes = "FCR created via copy of " + this.newFCR.parent.number;
+		
+		//lastEntry = this._getLastJournalEntry(this.fcrID, "work_notes");
+		//this.newFCR.work_notes = lastEntry + "\nTravel Request created via copy of " + this.newFCR.parent.number;
+
+		current.insert();
+		
+		// Setting redirect to newly created record for FCR application
+		action.setRedirectURL("x_spog_new_fcr_application.do?sys_id="+this.newFCR.sys_id);
+		
+		this._addAttachements();
+		
+		return this.newFCR;
+	},
+	
+	_addAttachements: function () {
+		if (typeof GlideSysAttachment != "undefined") {
+			GlideSysAttachment.copy(this.FCR_TABLE, this.fcrID, this.FCR_TABLE, this.newFCR.sys_id);
+		} else {
+			Packages.com.glide.ui.SysAttachment.copy(this.FCR_TABLE, this.fcrID, this.FCR_TABLE, this.newFCR.sys_id);
+		}
+	},
+	
+	_getLastJournalEntry: function (parentSysId, fieldName) {
+		
+		var journalRecord = new GlideRecord("sys_journal_field"),
+		result = "";
+		
+		journalRecord.addQuery("element_id", parentSysId);
+		journalRecord.addQuery("element", fieldName);
+		journalRecord.orderByDesc("sys_created_on");
+		journalRecord.query();
+		
+		while (journalRecord.next()) {
+			result += journalRecord.value + "\n\n";
+		}
+		return result;
+	},
+	
+	
+	type: "CloneFCRProcess"
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-08-25 08:27:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9d06411637c20200ef5b70f543990e60</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>CloneFCRProcess</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_include_9d06411637c20200ef5b70f543990e60</sys_update_name>
+        <sys_updated_by>afaq.chalak</sys_updated_by>
+        <sys_updated_on>2016-06-16 08:24:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

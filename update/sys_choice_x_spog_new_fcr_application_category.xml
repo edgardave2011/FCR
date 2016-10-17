@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_spog_new_fcr_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accounts Payable</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:09:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d9a93c7370d060050579c9953990ec9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-12 14:05:21</sys_updated_on>
+            <value>ap</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financial Reporting</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:10:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4ea93c7370d060050579c9953990ea9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-12 14:04:59</sys_updated_on>
+            <value>financial_reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financing &amp; Distributions</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91ca13c7370d060050579c9953990e1c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-09 10:34:36</sys_updated_on>
+            <value>financing_distributions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group Treasury</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:09:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1da93c7370d060050579c9953990ea8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-07-23 09:07:53</sys_updated_on>
+            <value>group_tresury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pensions</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:23:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ced57c7370d060050579c9953990e2a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-09 10:34:36</sys_updated_on>
+            <value>pensions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stores Reporting</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:10:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6eead3c7370d060050579c9953990e89</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-12 14:05:38</sys_updated_on>
+            <value>reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales Accounting</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5fa9f87370d060050579c9953990e06</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-12 14:04:59</sys_updated_on>
+            <value>sales_accounting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tax</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:09:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71ba93c7370d060050579c9953990e92</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-12 14:04:59</sys_updated_on>
+            <value>tax</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_spog_new_fcr_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-09 10:09:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2eaad3c7370d060050579c9953990e26</sys_id>
+            <sys_mod_count>16</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+            <sys_update_name>sys_choice_x_spog_new_fcr_application_category</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-12 14:05:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

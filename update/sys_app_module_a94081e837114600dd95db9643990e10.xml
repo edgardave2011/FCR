@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="FCR Application">203d4e163745060050579c9953990e9c</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>FCR Application</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_dashboard_template</name>
+        <order>0</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>home.do?sysparm_view=fcr</query>
+        <report/>
+        <roles>x_spog_new_fcr.agent,x_spog_new_fcr.finance_agent</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-13 14:45:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a94081e837114600dd95db9643990e10</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>FCR Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_app_module_a94081e837114600dd95db9643990e10</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-07 10:47:41</sys_updated_on>
+        <timeline_page/>
+        <title>FCR Dashboard</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

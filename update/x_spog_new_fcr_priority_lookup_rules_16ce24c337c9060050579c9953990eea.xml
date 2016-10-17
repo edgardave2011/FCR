@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_spog_new_fcr_priority_lookup_rules">
+    <x_spog_new_fcr_priority_lookup_rules action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <impact>2</impact>
+        <order>1000</order>
+        <priority>3</priority>
+        <sys_class_name>x_spog_new_fcr_priority_lookup_rules</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-08 21:38:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>16ce24c337c9060050579c9953990eea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1000</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>x_spog_new_fcr_priority_lookup_rules_16ce24c337c9060050579c9953990eea</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-08 21:38:12</sys_updated_on>
+        <urgency>3</urgency>
+    </x_spog_new_fcr_priority_lookup_rules>
+</record_update>

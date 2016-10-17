@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_spog_new_fcr_application</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>FGE - FCR Defining Events</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[var fcrGroups = ["FCR Corporate Eyecare", "FCR Accounts Payable", "FCR Pensions", "FCR Reporting", "FCR Risk and Investment", "FCR Sales Accounting", "FCR Tax", "FCR Treasury"];
+
+function onAfter(current, previous) {
+
+    if (current.operation() == "update" && current.closure_countdown_strike.changes() && current.closure_countdown_strike == 3) { //48 passed  hours
+        gs.eventQueue("x_spog_new_fcr.strike.detected", current, current.number, current.closure_countdown_strike);
+    }
+
+    if (current.assignment_group.changes() && !current.assignment_group.nil() && current.assigned_to.nil() && hasGroupChanged(current)) {
+        gs.eventQueue("x_spog_new_fcr.team_or_member_changed", current, current.number, current.assignment_group);
+    }
+
+    if (current.assigned_to.changes() && !current.assigned_to.nil() && haveMembersFCRChanged(current)) {
+        gs.eventQueue("x_spog_new_fcr.team_or_member_changed", current, current.number, current.assigned_to);
+    }
+}
+
+function hasGroupChanged(current) {
+
+    var i = 0,
+        max = parseInt(fcrGroups.length),
+        result = false;
+
+    for (; i < max; i += 1) {
+        if (current.assignment_group.getDisplayValue() == fcrGroups[i]) {
+            result = true;
+            break;
+        }
+    }
+    return result;
+}
+
+function haveMembersFCRChanged(current) {
+
+    var gr = new GlideRecord("sys_user_grmember"),
+        found = false,
+        result = false;
+
+    gr.addQuery("user", current.assigned_to);
+    gr.query();
+
+    while (gr.next() && !found) {
+        if (fcrGroups.toString().indexOf(gr.group.getDisplayValue()) != -1) {
+            found = true;
+            result = true;
+        }
+    }
+    return result;
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-07 22:01:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>856aefaa3709060050579c9953990eaf</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>FGE - FCR Defining Events</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_856aefaa3709060050579c9953990eaf</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-17 15:44:45</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=856aefaa3709060050579c9953990eaf"/>
+</record_update>

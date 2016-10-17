@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>FGE - FCR Weekend Closure Increment</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>7</run_dayofweek>
+        <run_period>1970-01-02 14:00:00</run_period>
+        <run_start>2015-10-14 10:26:07</run_start>
+        <run_time>1970-01-01 12:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[var gr = new GlideRecord("x_spog_new_fcr_application");
+gr.addQuery("active", true);
+gr.addQuery("fcr_state", 3); //Awaiting Customer
+gr.query();
+//gs.info("running scheduled job");
+while(gr.next())
+	{
+	var gt = new GlideDateTime(gr.closure_countdown_time);
+	//gs.info("ALEX BEFORE " + gr.closure_countdown_time);
+	//gt = gr.closure_countdown_time;
+	gt.addDaysLocalTime(2);
+	gr.closure_countdown_time = gt;
+	//gs.info("ALEX AFTER GT " + gr.closure_countdown_time);
+	gr.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-10-14 10:38:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f0c04fda3703c6006c522b2943990e4f</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>FGE - FCR Weekend Closure Increment</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sysauto_script_f0c04fda3703c6006c522b2943990e4f</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-08-12 15:38:13</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_spog_new_fcr_application</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description>Finance Customer Response New Request</description>
+        <event_name>x_spog_new_fcr.reminder_detected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="font-family: verdana, geneva;">Dear ${assigned_to.first_name} ${assigned_to.last_name},</div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">Your request ID ${URI_REF} has a reminder.</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">The details of your enquiry are shown in the table below:</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<table style="border: 1px solid black; text-align: left; width: 100%;" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 12px;">Short Description</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${short_description}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Category</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${category}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Sub Category</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${subcategory}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Assigned To</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${assigned_to}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva; background-color: #00ff00;"><span style="font-size: 9pt;">Reminder</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva; background-color: #00ff00;"><span style="font-size: 9pt;">${reminder}</span></td>
+</tr>
+</tbody>
+</table>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<p>${mail_script:fge_fcr_email_default_signature}</p>
+<div id="mceResizeHandlen" data-mce-bogus="true" class="mce-resizehandle" unselectable="true" style="cursor: n-resize; margin: 0px; padding: 0px; left: 297px; top: 100.5px; display: block;"></div>
+<div id="mceResizeHandlee" data-mce-bogus="true" class="mce-resizehandle" unselectable="true" style="cursor: e-resize; margin: 0px; padding: 0px; left: 589.5px; top: 171.5px; display: block;"></div>
+<div id="mceResizeHandles" data-mce-bogus="true" class="mce-resizehandle" unselectable="true" style="cursor: s-resize; margin: 0px; padding: 0px; left: 297px; top: 242.5px; display: block;"></div>
+<div id="mceResizeHandlew" data-mce-bogus="true" class="mce-resizehandle" unselectable="true" style="cursor: w-resize; margin: 0px; padding: 0px; left: 4.5px; top: 171.5px; display: block;"></div>
+<div id="mceResizeHandlenw" data-mce-bogus="true" class="mce-resizehandle" unselectable="true" style="cursor: nw-resize; margin: 0px; padding: 0px; left: 4.5px; top: 100.5px; display: block;"></div>
+<div id="mceResizeHandlene" data-mce-bogus="true" class="mce-resizehandle" unselectable="true" style="cursor: ne-resize; margin: 0px; padding: 0px; left: 589.5px; top: 100.5px; display: block;"></div>
+<div id="mceResizeHandlese" data-mce-bogus="true" class="mce-resizehandle" unselectable="true" style="cursor: se-resize; margin: 0px; padding: 0px; left: 589.5px; top: 242.5px; display: block;"></div>
+<div id="mceResizeHandlesw" data-mce-bogus="true" class="mce-resizehandle" unselectable="true" style="cursor: sw-resize; margin: 0px; padding: 0px; left: 4.5px; top: 242.5px; display: block;"></div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>FGE - FCR New Reminder</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - Finance Customer Response (Reminder)</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-08-13 08:39:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6d557d237f14a00dd95db9643990e49</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>FGE - FCR New Reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sysevent_email_action_e6d557d237f14a00dd95db9643990e49</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-01 09:35:04</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

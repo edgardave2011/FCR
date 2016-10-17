@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script hides the Closed Complete option from the Dropdown list when the state is not Closed Complete.&#13;
+It also hides the Closed By System option from the Root Cause dropdown list.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>FGE - FCR Hide Choice - Closed/Resolved</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	if (g_user.hasRole("admin")) {
+		return false;
+	}
+	
+	if (g_form.getValue("fcr_state") != "5") { //Closed
+		g_form.removeOption("fcr_state", "5");
+	}
+	
+	if (g_form.getValue("root_cause") != "closed_by_system") {
+		g_form.removeOption("root_cause", "closed_by_system");
+	}
+	
+	if (g_form.getValue("root_cause") != "resolved_by_system") {
+		g_form.removeOption("root_cause", "resolved_by_system");
+	}
+	
+	if (g_user.hasRole("x_spog_new_fcr.finance_agent")) {
+		if (g_form.getValue("fcr_state") != "1") { //New
+			g_form.removeOption("fcr_state", "1");
+		}
+		if (g_form.getValue("fcr_state") != "3") { //Awaiting Customer
+			g_form.removeOption("fcr_state", "3");
+		}
+		if (g_form.getValue("fcr_state") != "-5") { //Pending
+			g_form.removeOption("fcr_state", "-5");
+		}
+		if (g_form.getValue("fcr_state") != "4") { //Resolved
+			g_form.removeOption("fcr_state", "4");
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-07 12:04:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b01e56637810600dd95db9643990ee3</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>FGE - FCR Hide Choice - Closed/Resolved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_client_4b01e56637810600dd95db9643990ee3</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-07 11:34:52</sys_updated_on>
+        <table>x_spog_new_fcr_application</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

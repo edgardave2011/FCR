@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>assignment_group</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>SNDavid</sys_created_by>
+        <sys_created_on>2016-01-14 17:15:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d0a01a4c37019e004ed29c9953990e51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d0a01a4c37019e004ed29c9953990e51</sys_update_name>
+        <sys_updated_by>SNDavid</sys_updated_by>
+        <sys_updated_on>2016-01-14 17:15:30</sys_updated_on>
+        <table>x_spog_new_fcr_application</table>
+        <ui_policy display_value="Make Assignment group and Assigned to fields mandatory">5a2f4e0c37019e004ed29c9953990e2f</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_user_type" label="User Type" language="en" table="x_spog_new_fcr_cost_centers_users">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_user_type</element>
+            <help/>
+            <hint/>
+            <label>User Type</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_cost_centers_users</name>
+            <plural>User Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-14 08:09:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6bc148b8376ac20050579c9953990e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User Type</sys_name>
+            <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+            <sys_update_name>sys_documentation_x_spog_new_fcr_cost_centers_users_u_user_type_en</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-14 08:09:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

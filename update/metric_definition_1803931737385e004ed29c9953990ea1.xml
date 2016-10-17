@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <field>assignment_group</field>
+        <name>FCR-Assignment Group</name>
+        <number>MTRC0010006</number>
+        <order>100</order>
+        <script/>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>admin.mohammed</sys_created_by>
+        <sys_created_on>2016-01-12 14:10:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1803931737385e004ed29c9953990ea1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FCR-Assignment Group</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>metric_definition_1803931737385e004ed29c9953990ea1</sys_update_name>
+        <sys_updated_by>admin.mohammed</sys_updated_by>
+        <sys_updated_on>2016-01-12 14:10:27</sys_updated_on>
+        <table>x_spog_new_fcr_application</table>
+        <timeline>false</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>RPTb9385da6db5a920030d17dfcbf96191b</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-03-24 10:51:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fd385da6db5a920030d17dfcbf96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-03-24 10:51:54</sys_updated_on>
+        <title>Rptb9385da6db5a920030d17dfcbf96191b</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

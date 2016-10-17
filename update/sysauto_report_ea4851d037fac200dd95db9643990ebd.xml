@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of Weekly Call Numbers Graph</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <report display_value="Weekly Call Numbers - Team ">a75799d837b6420050579c9953990e32</report>
+        <report_body><![CDATA[<p>Weekly Call Numbers Graph</p>]]></report_body>
+        <report_title>Weekly Call Numbers Graph</report_title>
+        <run_as display_value="David Edgar">b773c69637b8820050579c9953990eae</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>7</run_dayofweek>
+        <run_period/>
+        <run_start>2015-09-25 11:26:07</run_start>
+        <run_time>1970-01-01 23:59:59</run_time>
+        <run_type>once</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2015-09-25 11:26:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ea4851d037fac200dd95db9643990ebd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Scheduled Execution of Weekly Call Numbers Graph</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sysauto_report_ea4851d037fac200dd95db9643990ebd</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-07-04 08:09:27</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>4883c69637b8820050579c9953990eb6</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

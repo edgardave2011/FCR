@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>8c835d3b37c0d200dd95db9643990e6f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global                          " table="x_spog_facilities_facilities_request">
+    <x_spog_facilities_facilities_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to display_value="Peter Craig">5532505537f60600dd95db9643990e50</assigned_to>
+        <assignment_group display_value="La Villiaze" name="La Villiaze">4d23ab22377c820050579c9953990e64</assignment_group>
+        <business_duration/>
+        <calendar_duration/>
+        <caller display_value="Michelle Humphrey">57830a9637b8820050579c9953990efc</caller>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type>self-service</contact_type>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>1.  Could Darran have a round table to place at the end of his desk.&#13;
+&#13;
+2.  We also require a high stand-up table in place of the small round table we currently have.  Idea being this would serve as a stand-up meeting place or where we can stand and work etc.&#13;
+&#13;
+3.  We have a set of drawers currently with Meryl that need to be moved to one of our "hot" desks.  In turn another set of drawers are to be moved to another desk.&#13;
+&#13;
+For a full explanation perhaps one of your team could pop over and speak to either Julie or myself.&#13;
+&#13;
+Many thanks&#13;
+Michelle</description>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact/>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>FAC0001657</number>
+        <opened_at>2015-12-07 11:29:50</opened_at>
+        <opened_by display_value="Michelle Humphrey">57830a9637b8820050579c9953990efc</opened_by>
+        <order/>
+        <parent/>
+        <priority>3</priority>
+        <reassignment_count>1</reassignment_count>
+        <rejection_goto/>
+        <short_description/>
+        <skills/>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_spog_facilities_facilities_request</sys_class_name>
+        <sys_created_by>michelle.humphrey</sys_created_by>
+        <sys_created_on>2015-12-07 11:29:50</sys_created_on>
+        <sys_domain>global                          </sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c835d3b37c0d200dd95db9643990e6f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>peter.craig</sys_updated_by>
+        <sys_updated_on>2015-12-15 17:02:55</sys_updated_on>
+        <time_worked/>
+        <total_cost>0</total_cost>
+        <u_area display_value="LV1-Legal Dept">c584e4bf3791c60050579c9953990eaf</u_area>
+        <u_configuration_item/>
+        <u_equipment display_value="LV1-Legal Dept Desk">8e7824ff3791c60050579c9953990edb</u_equipment>
+        <u_facilities_state>1</u_facilities_state>
+        <u_location display_value="Guernsey - La Villiaze - LV1">68b04ebb37d1c60050579c9953990e1d</u_location>
+        <u_symptom display_value="Other - Please specify in description">53e2d4fb3791c60050579c9953990eb7</u_symptom>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency/>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_spog_facilities_facilities_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-01-04 16:34:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7c87a678377c1640dd95db9643990e13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FAC0001657</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_metadata_link_7c87a678377c1640dd95db9643990e13</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-01-04 16:34:47</sys_updated_on>
+        <tablename>x_spog_facilities_facilities_request</tablename>
+    </sys_metadata_link>
+</record_update>

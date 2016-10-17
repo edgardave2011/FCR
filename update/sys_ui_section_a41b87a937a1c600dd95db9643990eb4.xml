@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="a41b87a937a1c600dd95db9643990eb4" sys_domain="global" table="x_spog_new_fcr_application" version="3" view="fcr_self_service">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>3858dd68379a0200ef5b70f543990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>7858dd68379a0200ef5b70f543990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller</element>
+            <position>2</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>b858dd68379a0200ef5b70f543990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>f858dd68379a0200ef5b70f543990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <position>4</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>3c58dd68379a0200ef5b70f543990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>5</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>7c58dd68379a0200ef5b70f543990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>6</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>bc58dd68379a0200ef5b70f543990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>fc58dd68379a0200ef5b70f543990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>8</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>3058dd68379a0200ef5b70f543990e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>9</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>7058dd68379a0200ef5b70f543990e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>10</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-01 09:33:21</sys_created_on>
+            <sys_id>b058dd68379a0200ef5b70f543990e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">8e5873fa37020200ef5b70f543990e91</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_spog_new_fcr_application" sys_domain="global" view="241b87a937a1c600dd95db9643990e50">a41b87a937a1c600dd95db9643990eb4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-09-01 09:33:21</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_spog_new_fcr_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 13:41:32</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a41b87a937a1c600dd95db9643990eb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_spog_new_fcr_application</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+            <sys_update_name>sys_ui_section_a41b87a937a1c600dd95db9643990eb4</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 13:41:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="FCR Self Service" name="fcr_self_service">241b87a937a1c600dd95db9643990e50</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

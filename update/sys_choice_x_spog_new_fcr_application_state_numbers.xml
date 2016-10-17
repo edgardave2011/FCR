@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state_numbers" table="x_spog_new_fcr_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_numbers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-10 13:20:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b1095a737490600dd95db9643990efe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-10 13:20:58</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_numbers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assigned</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-10 13:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce4015a737490600dd95db9643990e6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-10 13:21:30</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_numbers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Customer</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-10 13:21:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>755015a737490600dd95db9643990e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-10 13:21:46</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_numbers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resolved</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-10 13:21:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e460d5a737490600dd95db9643990e02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-10 13:21:57</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_numbers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-10 13:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>666095a737490600dd95db9643990e1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-10 13:22:05</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state_numbers</element>
+            <name>x_spog_new_fcr_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-10 13:20:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>062095a737490600dd95db9643990ef1</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>state_numbers</sys_name>
+            <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+            <sys_update_name>sys_choice_x_spog_new_fcr_application_state_numbers</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-10 13:22:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

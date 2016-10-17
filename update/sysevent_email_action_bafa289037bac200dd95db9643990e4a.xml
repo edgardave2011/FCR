@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_spog_new_fcr_application</collection>
+        <condition table="x_spog_new_fcr_application">assigned_to=e2cb9fde373d420050579c9953990ef1^EQ<item display_table="sys_user" display_value="Supply Chain" endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="false" value="e2cb9fde373d420050579c9953990ef1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_spog_new_fcr.team_or_member_changed</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div><span style="font-family: verdana, geneva;">Dear Colleague,</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">A request has been assigned to you by FCR.</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">The details of the query are shown below, however to see the full details and to respond, please log click here ${URI_REF}</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<table style="border: 1px solid black; text-align: left; width: 100%;" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 11.9999990463257px;">Short Description</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${short_description}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Category</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${category}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Sub Category</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${subcategory}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Assigned To</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${assigned_to}</span></td>
+</tr>
+</tbody>
+</table>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<p>${mail_script:fge_fcr_email_default_signature}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>FGE - FCR Assign to Supply Chain Team</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>cb830a9637b8820050579c9953990ee8,fb834a9637b8820050579c9953990e34,bb834a9637b8820050579c9953990e29,b5938a9637b8820050579c9953990e3d,d706d6e3db29520030d17dfcbf961976,e6830a9637b8820050579c9953990eab</recipient_users>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - Assigned To Supply Chain Team</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2015-09-25 08:08:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bafa289037bac200dd95db9643990e4a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FGE - FCR Assign to Supply Chain Team</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sysevent_email_action_bafa289037bac200dd95db9643990e4a</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2016-03-11 14:42:28</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

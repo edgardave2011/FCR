@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>fge_fcr_survey_get_link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runScript() {
+
+	template.print(getSurveyLink());
+    
+}());
+
+function getSurveyLink() {
+	
+    var mymazeLink = gs.getProperty("x_spog_new_fcr.maze_survey_link"),
+        url = '<a href="' + mymazeLink + '">Survey</a>';
+
+    return url;
+}
+]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-08-25 09:18:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1bc11dd2378602002a555ca543990ee0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>fge_fcr_survey_get_link</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_email_1bc11dd2378602002a555ca543990ee0</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-08-25 09:21:33</sys_updated_on>
+    </sys_script_email>
+</record_update>

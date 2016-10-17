@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This OnChange and OnLoad client script defines the Priority colour based Impact and Urgency&#13;
+</description>
+        <field>priority</field>
+        <global>true</global>
+        <messages/>
+        <name>FGE - Priority Colours OnChange/OnLoad</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    var backgroundColour = "",
+        colour = "";
+
+    switch (g_form.getValue("priority").toString()) {
+        case "1":
+            //P1
+            backgroundColour = "#FF0000"; //Red
+            colour = "#FFFFFF"; //White
+            break;
+        case "2":
+            //P2
+            backgroundColour = "#FFC000"; //Orange
+            colour = "#000000"; //Black
+            break;
+        case "3":
+            //P3
+            backgroundColour = "#FFFF00"; //Yellow
+            colour = "#000000"; //Black
+            break;
+        case "4":
+            //P4
+            backgroundColour = "#92D050"; //Green
+            colour = "#000000"; //Black
+            break;
+        default:
+            //None
+            backgroundColour = "#E6E8EA"; //Gray
+            colour = "#000000"; //Black
+    }
+	//UI Client Script
+    changeFieldStyle("sys_readonly.x_spog_new_fcr_application.priority", colour, backgroundColour, "");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-08 21:50:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f60f4c337c9060050579c9953990e45</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>FGE - Priority Colours OnChange/OnLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_client_6f60f4c337c9060050579c9953990e45</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-21 16:12:33</sys_updated_on>
+        <table>x_spog_new_fcr_application</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>8a92e9e03704128050579c9953990eb4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="x_spog_facilities_facilities_request">
+    <x_spog_facilities_facilities_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group display_value="La Villiaze" name="La Villiaze">4d23ab22377c820050579c9953990e64</assignment_group>
+        <business_duration/>
+        <calendar_duration/>
+        <caller display_value="William Le Maitre">ad4dcdd9373a0600dd95db9643990e77</caller>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type>walk-in</contact_type>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>Floor tiles damaged from dishwasher leak need to be replaced. OCS have tryed to clean with no success </description>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact/>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>FAC0001581</number>
+        <opened_at>2015-11-27 10:08:07</opened_at>
+        <opened_by display_value="William Le Maitre">ad4dcdd9373a0600dd95db9643990e77</opened_by>
+        <order/>
+        <parent/>
+        <priority>3</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <short_description/>
+        <skills/>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_spog_facilities_facilities_request</sys_class_name>
+        <sys_created_by>William.LeMaitre</sys_created_by>
+        <sys_created_on>2015-11-27 10:09:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a92e9e03704128050579c9953990eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>William.LeMaitre</sys_updated_by>
+        <sys_updated_on>2015-11-27 10:09:32</sys_updated_on>
+        <time_worked/>
+        <total_cost>0</total_cost>
+        <u_area display_value="LV1-HR Dept">fb74e4bf3791c60050579c9953990ead</u_area>
+        <u_configuration_item/>
+        <u_equipment display_value="LV1-HR Dept Other-Please specify in description">db6824ff3791c60050579c9953990ec6</u_equipment>
+        <u_facilities_state>0</u_facilities_state>
+        <u_location display_value="Guernsey - La Villiaze - LV1">68b04ebb37d1c60050579c9953990e1d</u_location>
+        <u_symptom display_value="Damaged">d7e2d4fb3791c60050579c9953990eb8</u_symptom>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency/>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_spog_facilities_facilities_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-01-04 16:34:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2887a678377c1640dd95db9643990e13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FAC0001581</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_metadata_link_2887a678377c1640dd95db9643990e13</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-01-04 16:34:46</sys_updated_on>
+        <tablename>x_spog_facilities_facilities_request</tablename>
+    </sys_metadata_link>
+</record_update>

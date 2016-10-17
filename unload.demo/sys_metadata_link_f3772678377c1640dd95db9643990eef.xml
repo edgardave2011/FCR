@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>31fcf5d637dc560050579c9953990ea2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global                          " table="x_spog_facilities_facilities_request">
+    <x_spog_facilities_facilities_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <calendar_duration/>
+        <caller display_value="Michael Kirk">97830a9637b8820050579c9953990ef7</caller>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type>self-service</contact_type>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>The door handle in the inside of the IT Store cupboard is broken and falls off intermittently. Can it be repaired/replaced please?</description>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact/>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>FAC0001713</number>
+        <opened_at>2015-12-15 08:49:55</opened_at>
+        <opened_by display_value="Michael Kirk">97830a9637b8820050579c9953990ef7</opened_by>
+        <order/>
+        <parent/>
+        <priority>3</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <short_description/>
+        <skills/>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_spog_facilities_facilities_request</sys_class_name>
+        <sys_created_by>michael.kirk</sys_created_by>
+        <sys_created_on>2015-12-15 08:49:55</sys_created_on>
+        <sys_domain>global                          </sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31fcf5d637dc560050579c9953990ea2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.kirk</sys_updated_by>
+        <sys_updated_on>2015-12-15 08:49:55</sys_updated_on>
+        <time_worked/>
+        <total_cost>0</total_cost>
+        <u_area/>
+        <u_configuration_item/>
+        <u_equipment/>
+        <u_facilities_state>0</u_facilities_state>
+        <u_location display_value="England - Whiteley - Forum 6">fba04ebb37d1c60050579c9953990e1b</u_location>
+        <u_symptom/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency/>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_spog_facilities_facilities_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-01-04 16:34:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f3772678377c1640dd95db9643990eef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FAC0001713</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_metadata_link_f3772678377c1640dd95db9643990eef</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-01-04 16:34:43</sys_updated_on>
+        <tablename>x_spog_facilities_facilities_request</tablename>
+    </sys_metadata_link>
+</record_update>

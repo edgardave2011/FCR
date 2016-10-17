@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>FGE - FCR Strike Counter Job</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 01:00:00</run_period>
+        <run_start>2015-08-12 14:37:08</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var now = new Date();
+var day = now.getDay();
+
+// Do not run on saturday or sunday
+if (day != 0 && day != 6) {
+	runJob();
+}
+
+function runJob() {
+	
+	var time = parseInt(gs.getProperty("x_spog_new_fcr.strike.notification.time")),
+		gr;
+		//notes = gs.getMessage("fcr.strike.message.automatically.resolved");
+	
+	if (time > 0) {
+		gr = new GlideRecord("x_spog_new_fcr_application");
+		gr.addQuery("active", true);
+		gr.addQuery("fcr_state", 3); //Awaiting Customer
+		gr.addQuery("closure_countdown_time", "<=", gs.hoursAgo(time));
+		//gr.addQuery("closure_countdown_time", "<", gs.minutesAgoEnd(time));
+		gr.query();
+		
+		while (gr.next()) {
+			if (gr.closure_countdown_strike == "3") {
+				gs.eventQueue("x_spog_new_fcr.auto_resolved.detected", gr, gr.number, gr.fcr_state);
+				gr.fcr_state = 4; //Resolved
+				//gr.comments = notes;
+				gr.resolved_by = gr.assigned_to;
+			} else {
+				gr.closure_countdown_strike = gr.closure_countdown_strike + 1;
+				gr.closure_countdown_time = new GlideDateTime().getDisplayValue();
+			}
+			gr.update();
+		}
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-08-12 15:37:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>62cb63c637714a00dd95db9643990e2a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>FGE - FCR Strike Counter Job</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sysauto_script_62cb63c637714a00dd95db9643990e2a</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-17 13:34:02</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

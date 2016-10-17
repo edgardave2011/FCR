@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Number of journal entries (Additional comments, Work notes, etc.) included in email notifications (-1 means all)</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_spog_new_fcr.email.journal.lines</name>
+        <read_roles/>
+        <suffix>email.journal.lines</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-09-02 14:38:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fec763fc375e0200ef5b70f543990ef1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_spog_new_fcr.email.journal.lines</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_properties_fec763fc375e0200ef5b70f543990ef1</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-02 16:06:38</sys_updated_on>
+        <type>integer</type>
+        <value>1</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=fec763fc375e0200ef5b70f543990ef1"/>
+</record_update>

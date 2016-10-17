@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>The string that represents a unique pattern of characters that should not normally be found in an email response.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_spog_new_fcr.email.watermark.truncate_reply</name>
+        <read_roles/>
+        <suffix>email.watermark.truncate_reply</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-09-15 12:33:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a6978ecd376a8200ef5b70f543990ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_spog_new_fcr.email.watermark.truncate_reply</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_properties_a6978ecd376a8200ef5b70f543990ea9</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-15 12:33:45</sys_updated_on>
+        <type>string</type>
+        <value>//--*--//</value>
+        <write_roles>user_admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6978ecd376a8200ef5b70f543990ea9"/>
+</record_update>

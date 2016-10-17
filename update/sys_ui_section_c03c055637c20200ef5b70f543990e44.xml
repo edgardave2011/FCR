@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Related Ticket" section_id="c03c055637c20200ef5b70f543990e44" sys_domain="global" table="x_spog_new_fcr_application" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>0</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-08-25 08:56:18</sys_created_on>
+            <sys_id>25bcc55637c20200ef5b70f543990eb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Ticket" display_value="Related Ticket" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">c03c055637c20200ef5b70f543990e44</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-08-25 08:56:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-08-25 08:56:18</sys_created_on>
+            <sys_id>65bcc55637c20200ef5b70f543990eb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Ticket" display_value="Related Ticket" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">c03c055637c20200ef5b70f543990e44</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-08-25 08:56:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_child</element>
+            <position>2</position>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-08-25 08:56:18</sys_created_on>
+            <sys_id>a5bcc55637c20200ef5b70f543990eb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Ticket" display_value="Related Ticket" name="x_spog_new_fcr_application" sys_domain="global" view="Default view">c03c055637c20200ef5b70f543990e44</sys_ui_section>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-08-25 08:56:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Related Ticket</caption>
+            <header>false</header>
+            <name>x_spog_new_fcr_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-08-25 08:54:01</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c03c055637c20200ef5b70f543990e44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Related Ticket</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+            <sys_update_name>sys_ui_section_c03c055637c20200ef5b70f543990e44</sys_update_name>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-08-25 08:54:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

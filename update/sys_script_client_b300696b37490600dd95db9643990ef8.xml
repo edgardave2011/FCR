@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script only clears some values after the selections of the choice list.</description>
+        <field>caller_type</field>
+        <global>true</global>
+        <messages/>
+        <name>FGE - FCR Caller Type onChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	
+	if (isLoading) {
+		return false;
+	}
+	
+	g_form.setValue("store_name", "");
+	g_form.setValue("store_email_address", "");
+	g_form.setValue("contact_number", "");
+	g_form.setValue("caller", "");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-10 14:30:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b300696b37490600dd95db9643990ef8</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>FGE - FCR Caller Type onChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_client_b300696b37490600dd95db9643990ef8</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-09-23 09:07:55</sys_updated_on>
+        <table>x_spog_new_fcr_application</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

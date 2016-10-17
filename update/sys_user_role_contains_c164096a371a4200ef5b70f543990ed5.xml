@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="report_group" name="report_group">8a562cd0c0a8010701ec463995abf6fb</contains>
+        <role display_value="x_spog_new_fcr.finance_agent" name="x_spog_new_fcr.finance_agent">a7fec2bd37d24200ef5b70f543990e92</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-09-07 13:14:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c164096a371a4200ef5b70f543990ed5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>report_group.x_spog_new_fcr.finance_agent</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_user_role_contains_c164096a371a4200ef5b70f543990ed5</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-07 13:14:08</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

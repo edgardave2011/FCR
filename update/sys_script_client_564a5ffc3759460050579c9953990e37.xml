@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script validates the format of the field Reminder onSubmit.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>FGE - FCR Validate Reminder OnSubmit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	
+	var reminder = g_form.getValue("reminder"),
+		format = g_user_date_time_format;
+		
+	if (reminder == "") {
+		return true;
+	}
+	
+	if (!isDate(reminder, format)) {
+		g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("reminder")));
+		
+		return false;
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-14 20:42:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>564a5ffc3759460050579c9953990e37</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>FGE - FCR Validate Reminder OnSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_script_client_564a5ffc3759460050579c9953990e37</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-21 16:12:33</sys_updated_on>
+        <table>x_spog_new_fcr_application</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

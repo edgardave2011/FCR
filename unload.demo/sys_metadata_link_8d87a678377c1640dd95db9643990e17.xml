@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>c367764937e30640dd95db9643990ec9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global                          " table="x_spog_facilities_facilities_request">
+    <x_spog_facilities_facilities_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to display_value="Peter Craig">5532505537f60600dd95db9643990e50</assigned_to>
+        <assignment_group display_value="La Villiaze" name="La Villiaze">4d23ab22377c820050579c9953990e64</assignment_group>
+        <business_duration/>
+        <calendar_duration/>
+        <caller display_value="Matthew Chilcott">0d82d45537f60600dd95db9643990ef2</caller>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type>phone</contact_type>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>Archive floor needs to be cleaned, boxes need to be taken away </description>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact/>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>FAC0001377</number>
+        <opened_at>2015-11-04 09:04:18</opened_at>
+        <opened_by display_value="Peter Craig">5532505537f60600dd95db9643990e50</opened_by>
+        <order/>
+        <parent/>
+        <priority>3</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <short_description/>
+        <skills/>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_spog_facilities_facilities_request</sys_class_name>
+        <sys_created_by>peter.craig</sys_created_by>
+        <sys_created_on>2015-11-04 09:17:01</sys_created_on>
+        <sys_domain>global                          </sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c367764937e30640dd95db9643990ec9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>peter.craig</sys_updated_by>
+        <sys_updated_on>2015-11-25 09:27:31</sys_updated_on>
+        <time_worked/>
+        <total_cost>0</total_cost>
+        <u_area display_value="Other-Please specify in description">203e5c88377e02004ed29c9953990e76</u_area>
+        <u_configuration_item/>
+        <u_equipment display_value="Other-Please specify in description Window">7b822cc8377e02004ed29c9953990e19</u_equipment>
+        <u_facilities_state>1</u_facilities_state>
+        <u_location display_value="Guernsey - La Villiaze - LV1">68b04ebb37d1c60050579c9953990e1d</u_location>
+        <u_symptom display_value="Other - Please specify in description">9be2d4fb3791c60050579c9953990eb9</u_symptom>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency/>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_spog_facilities_facilities_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-01-04 16:34:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8d87a678377c1640dd95db9643990e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FAC0001377</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_metadata_link_8d87a678377c1640dd95db9643990e17</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-01-04 16:34:48</sys_updated_on>
+        <tablename>x_spog_facilities_facilities_request</tablename>
+    </sys_metadata_link>
+</record_update>

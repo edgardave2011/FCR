@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-10-17 14:32:42">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order>200</order>
+        <read_roles>x_spog_new_fcr.agent,x_spog_new_fcr.finance_agent</read_roles>
+        <roles>user_admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-13 15:30:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb7a896c37114600dd95db9643990e1c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>FCR Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sys_portal_page_cb7a896c37114600dd95db9643990e1c</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-10 14:44:28</sys_updated_on>
+        <title>FCR Dashboard</title>
+        <u_groups/>
+        <u_groups_2/>
+        <user/>
+        <view>fcr</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>1</offset>
+                <page display_value="FCR Dashboard">cb7a896c37114600dd95db9643990e1c</page>
+                <summary/>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                <sys_id>32effce8db0e6e002ab570d9bf961999</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">32effce8db0e6e002ab570d9bf961999</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>36effce8db0e6e002ab570d9bf961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">32effce8db0e6e002ab570d9bf961999</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>72effce8db0e6e002ab570d9bf961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>5ce3d12037514600dd95db9643990ea6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">32effce8db0e6e002ab570d9bf961999</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>baeffce8db0e6e002ab570d9bf961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>cb7a896c37114600dd95db9643990e1c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">32effce8db0e6e002ab570d9bf961999</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>f6effce8db0e6e002ab570d9bf961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>Daily RFT Logged</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="FCR Dashboard">cb7a896c37114600dd95db9643990e1c</page>
+                <summary/>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                <sys_id>36effce8db0e6e002ab570d9bf961995</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">36effce8db0e6e002ab570d9bf961995</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>36effce8db0e6e002ab570d9bf961996</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>cb7a896c37114600dd95db9643990e1c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">36effce8db0e6e002ab570d9bf961995</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>3aeffce8db0e6e002ab570d9bf961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">36effce8db0e6e002ab570d9bf961995</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>72effce8db0e6e002ab570d9bf961996</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>Open FCR by Priority</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">36effce8db0e6e002ab570d9bf961995</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>76effce8db0e6e002ab570d9bf961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>772ec1ec37114600dd95db9643990e8f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">36effce8db0e6e002ab570d9bf961995</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>beeffce8db0e6e002ab570d9bf961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">36effce8db0e6e002ab570d9bf961995</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>faeffce8db0e6e002ab570d9bf961995</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="FCR Dashboard">cb7a896c37114600dd95db9643990e1c</page>
+                <summary/>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                <sys_id>7aeffce8db0e6e002ab570d9bf961996</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">7aeffce8db0e6e002ab570d9bf961996</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>32effce8db0e6e002ab570d9bf961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">7aeffce8db0e6e002ab570d9bf961996</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>7aeffce8db0e6e002ab570d9bf961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>cb7a896c37114600dd95db9643990e1c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">7aeffce8db0e6e002ab570d9bf961996</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>7eeffce8db0e6e002ab570d9bf961996</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">7aeffce8db0e6e002ab570d9bf961996</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>b6effce8db0e6e002ab570d9bf961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>FCR 3 - Active by State</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">7aeffce8db0e6e002ab570d9bf961996</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>baeffce8db0e6e002ab570d9bf961996</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>711f45ec37114600dd95db9643990e43</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">7aeffce8db0e6e002ab570d9bf961996</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>f2effce8db0e6e002ab570d9bf961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="FCR Dashboard">cb7a896c37114600dd95db9643990e1c</page>
+                <summary/>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                <sys_id>beeffce8db0e6e002ab570d9bf961997</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">beeffce8db0e6e002ab570d9bf961997</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>3aeffce8db0e6e002ab570d9bf961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>FCR - My SLA due within 2 hours</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">beeffce8db0e6e002ab570d9bf961997</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>76effce8db0e6e002ab570d9bf961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">beeffce8db0e6e002ab570d9bf961997</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>b2effce8db0e6e002ab570d9bf961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">beeffce8db0e6e002ab570d9bf961997</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>faeffce8db0e6e002ab570d9bf961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>cb7a896c37114600dd95db9643990e1c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 20-09-2016 14:53:21">beeffce8db0e6e002ab570d9bf961997</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-09-20 13:53:21</sys_created_on>
+                        <sys_id>feeffce8db0e6e002ab570d9bf961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-09-20 13:53:21</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>225ebd4237181a00dd95db9643990e1a</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

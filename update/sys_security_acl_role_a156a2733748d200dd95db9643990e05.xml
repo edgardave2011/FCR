@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2015-12-07 17:24:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a156a2733748d200dd95db9643990e05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_spog_new_fcr_application.report_admin</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_security_acl display_value="x_spog_new_fcr_application">203d4e163745060050579c9953990ea0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a156a2733748d200dd95db9643990e05</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2015-12-07 17:24:28</sys_updated_on>
+        <sys_user_role display_value="report_admin" name="report_admin">fdc4e4540a0a0b8e0136581790249b7a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

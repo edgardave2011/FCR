@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>This inbound email action behaves the same as Update Incident, but additionally will reopen a resoved ticket if the email subject contains "please reopen". In reopening the ticket, the state will be set to "2" (Assigned)  and "The caller did not feel that this issue was resolved" will be added to the tcket as a work note.</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Update FCR Ticket - reply email</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[gs.include("global.validators");
+
+var body = email.body_text.toString();
+var mark = gs.getProperty("x_spog_new_fcr.email.watermark.truncate_reply");
+
+if (current.getTableName() == "x_spog_new_fcr_application") {
+	
+    if (mark != "") {
+		//if there's a watermark, split the string at the watermark
+        var truncBody = body.split(mark);
+        body = truncBody[0].toString(); //keep everything before the watermark
+        //current.comments = "reply from: " + email.origemail + "\n\n" + body;
+		//current.comments = "reply from: " + email.origemail + "\n\n" + body;
+    }
+} else {
+    //current.comments = "reply from: " + email.origemail + "\n\n" + email.body_text;
+}
+
+if (current.fcr_state != "5") { //Closed
+	current.fcr_state = "2"; //Assigned
+}
+
+//this updated_on is a workaround, given that the ticket will not attach any emails unless some other field is updated - seems setForceUpdate(true) currently does not work for scoped apps.
+var now = new GlideDateTime();  
+current.sys_updated_on = now; 
+current.update();
+/*
+
+gs.include("global.validators");
+
+if (current.getTableName() == "x_spog_new_fcr_application") {
+	current.comments = "reply from: " + email.origemail + "\n\n" + email.body_text;
+	
+	if (current.fcr_state != "5") { //Closed
+		current.fcr_state = "2"; //Assigned
+	}
+	current.work_notes = "The caller did not feel that this issue was resolved";
+	current.update();
+}
+	//if (email.subject.toLowerCase().indexOf("please reopen") >= 0) {
+	*/]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-23 09:50:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e5cd3ef3751c60050579c9953990e9d</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Update FCR Ticket - reply email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sysevent_in_email_action_9e5cd3ef3751c60050579c9953990e9d</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-05-06 09:07:20</sys_updated_on>
+        <table>x_spog_new_fcr_application</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

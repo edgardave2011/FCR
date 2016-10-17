@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_method_of_contact" table="x_spog_new_fcr_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_method_of_contact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phone</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 14:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f84dc9a3784d2004ed29c9953990e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 14:56:32</sys_updated_on>
+            <value>Phone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_method_of_contact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Text</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 14:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f784dc9a3784d2004ed29c9953990e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 14:56:32</sys_updated_on>
+            <value>Text</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_method_of_contact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>x_spog_new_fcr_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 14:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff84dc9a3784d2004ed29c9953990e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 14:56:32</sys_updated_on>
+            <value>Email</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_method_of_contact</element>
+            <name>x_spog_new_fcr_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2015-12-02 14:56:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fb77e12237c81200dd95db9643990efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_method_of_contact</sys_name>
+            <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+            <sys_update_name>sys_choice_x_spog_new_fcr_application_u_method_of_contact</sys_update_name>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2015-12-02 14:56:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

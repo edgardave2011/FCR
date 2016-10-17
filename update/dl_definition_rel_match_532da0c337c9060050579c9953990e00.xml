@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="FCR Priority Lookup">2dfc60c337c9060050579c9953990e8a</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_spog_new_fcr_priority_lookup_rules</matcher_table>
+        <matcher_table_field>impact</matcher_table_field>
+        <source_table>x_spog_new_fcr_application</source_table>
+        <source_table_field>impact</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-08 21:31:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>532da0c337c9060050579c9953990e00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impact</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>dl_definition_rel_match_532da0c337c9060050579c9953990e00</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-08 21:31:34</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of All Calls Everywhere daily</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>Excel</output_type>
+        <report display_value="All Calls Everywhere daily">eef15821377c124050579c9953990e9d</report>
+        <report_body/>
+        <report_title>All Calls Everywhere reports</report_title>
+        <run_as display_value="David Edgar">b773c69637b8820050579c9953990eae</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-01-08 12:41:54</run_start>
+        <run_time>1970-01-01 15:00:00</run_time>
+        <run_type>once</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-01-08 12:42:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d898524237b0924050579c9953990eec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Scheduled Execution of All Calls Everywhere daily</sys_name>
+        <sys_package display_value="FCR Application" source="x_spog_new_fcr">543d0a163745060050579c9953990e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FCR Application">543d0a163745060050579c9953990e16</sys_scope>
+        <sys_update_name>sysauto_report_d898524237b0924050579c9953990eec</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-07-04 08:08:54</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>dd934a9637b8820050579c9953990eff,7f73c69637b8820050579c9953990ea2</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>
